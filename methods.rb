@@ -1,17 +1,17 @@
 def greet_programmer
-    puts "Hello programmer!";
+    puts "Hello, programmer!";
 end;
 
 greet_programmer;
 
 def greet name
-    puts "Hello #{name}!";
+    puts "Hello, #{name}!";
 end;
 
 greet("Benaiah");
 
 def greet_with_default name = "programmer"
-    puts "Hello #{name}!";
+    puts "Hello, #{name}!";
 end;
 
 greet_with_default;
